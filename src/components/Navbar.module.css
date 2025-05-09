@@ -47,7 +47,7 @@
   }
   
   .btnRegister {
-    background-color: #1ed5c1;
+    background-color: #ec2c61;
     color: #0e1a2b;
     padding: 8px 16px;
     border-radius: 4px;
@@ -55,7 +55,7 @@
   }
   
   .btnRegister:hover {
-    background-color: #f2f2f2;
+    background-color: #d01d4f;
   }
   
   .btnLogin {

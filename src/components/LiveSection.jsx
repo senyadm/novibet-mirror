@@ -20,7 +20,6 @@ import pragmaticPlay   from '../assets/pragmatic-play.png';
 import microgaming     from '../assets/microgaming.png';
 import evolutionGaming from '../assets/evolution-gaming.png';
 import redTiger        from '../assets/red-tiger.png';
-import quickspin       from '../assets/quickspin.png';
 import bigTimeGaming   from '../assets/big-time-gaming.png';
 import sportingbet     from '../assets/sportingbet-logo.png';
 import winmasters      from '../assets/winmasters-logo.png';
@@ -44,7 +43,7 @@ export default function LiveSection() {
 
   const providers = [
     netent, playngo, pragmaticPlay, microgaming,
-    evolutionGaming, redTiger, quickspin, bigTimeGaming,
+    evolutionGaming, redTiger, bigTimeGaming,
     sportingbet, winmasters
   ];
 
