@@ -4,38 +4,37 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
                       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  
-  <!-- Главная страница -->
+
+  <!-- Home Page -->
   <url>
-    <loc>https://localhost:5178/</loc>
-    <lastmod>2025-05-08</lastmod>
+    <loc>https://www.casino5.gr/</loc>
+    <lastmod>2025-05-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Страница бонусов -->
+  <!-- Bonus Page -->
   <url>
-    <loc>https://localhost:5178/bonus</loc>
-    <lastmod>2025-05-08</lastmod>
+    <loc>https://www.casino5.gr/bonus</loc>
+    <lastmod>2025-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- FAQ -->
   <url>
-    <loc>https://localhost:5178/faq</loc>
-    <lastmod>2025-05-08</lastmod>
+    <loc>https://www.casino5.gr/faq</loc>
+    <lastmod>2025-05-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Live Casino -->
   <url>
-    <loc>https://localhost:5178/live-casino</loc>
-    <lastmod>2025-05-08</lastmod>
+    <loc>https://www.casino5.gr/live-casino</loc>
+    <lastmod>2025-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
-  <!-- Дополните, когда появятся новые страницы -->
 </urlset>
