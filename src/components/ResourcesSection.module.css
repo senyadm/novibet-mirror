@@ -1,0 +1,29 @@
+.section {
+    padding: 60px 0;
+    background: #0e1a2b; /* тёмный фон */
+  }
+  
+  .heading {
+    text-align: center;
+    color: #ffffff;      /* белый заголовок */
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+  
+  .list {
+    max-width: 800px;
+    margin: 0 auto;
+    list-style: disc inside;
+    color: #ffffff;      /* белый текст списка */
+    line-height: 1.6;
+  }
+  
+  .list a {
+    color: #1ed5c1;      /* акцентный цвет для ссылок */
+    text-decoration: none;
+  }
+  
+  .list a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,44 @@
+.section {
+    padding: 60px 0;
+    background: #fff;
+  }
+  .heading {
+    text-align: center;
+    color: #0e1a2b;
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+  .text {
+    max-width: 800px;
+    margin: 0 auto 32px;
+    text-align: center;
+    color: #333;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 24px;
+    max-width: 960px;
+    margin: 0 auto 32px;
+  }
+  .card {
+    background: #f9f9f9;
+    padding: 24px 16px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  .icon {
+    font-size: 2rem;
+    color: #1ed5c1;
+    margin-bottom: 12px;
+  }
+  .cardTitle {
+    font-weight: 600;
+    color: #0e1a2b;
+    margin-bottom: 8px;
+  }
+  .cardText {
+    color: #555;
+  }
+  

@@ -1,0 +1,22 @@
+.section {
+    padding: 60px 0;
+    background: #f9f9f9;
+  }
+  .heading {
+    text-align: center;
+    color: #0e1a2b;
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+  .list {
+    max-width: 800px;
+    margin: 0 auto;
+    list-style: disc inside;
+    color: #333;
+    line-height: 1.6;
+    padding-left: 0;
+  }
+  .list li {
+    margin-bottom: 12px;
+  }
+  

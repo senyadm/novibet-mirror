@@ -1,0 +1,95 @@
+/* Hero.module.css */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* полная высота экрана */
+    background-image: url('../assets/hero.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  
+  .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(14, 26, 43, 0.75);
+    z-index: 0;
+  }
+  
+  /* Градиентная вставка внизу секции */
+  .hero::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to bottom, rgba(14,26,43,0.75), #ffffff);
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  .container {
+    position: relative;
+    max-width: 50%;
+    margin: 0 2rem 0 auto;
+    padding: 2rem 0;
+    z-index: 2;
+    text-align: left;
+  }
+  
+  .title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 48px;
+    color: #ffffff;
+  }
+  
+  .subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 48px;
+    line-height: 1.6;
+    color: #ffffff;
+  }
+  
+  .btnPrimary {
+    background-color: #1ed5c1;
+    color: #0e1a2b;
+    padding: 12px 32px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s;
+  }
+  
+  .btnPrimary:hover {
+    background-color: #17b3a5;
+  }
+  
+  /* Адаптация для мобильных */
+  @media (max-width: 768px) {
+    .hero {
+      height: auto;
+      padding: 80px 0 40px; /* отступы вместо 100vh */
+    }
+    .container {
+      max-width: 90%;
+      margin: 0 auto;
+      padding: 0;
+      text-align: center;
+    }
+    .title {
+      font-size: 1.8rem;
+      margin-bottom: 24px;
+    }
+    .subtitle {
+      font-size: 1rem;
+      margin-bottom: 32px;
+    }
+    .btnPrimary {
+      padding: 10px 24px;
+      font-size: 1rem;
+    }
+  }
+  

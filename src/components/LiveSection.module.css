@@ -1,0 +1,87 @@
+.section {
+    padding: 60px 0;
+    background: #0e1a2b;      /* тёмный фон как в навбаре */
+  }
+  
+  .heading {
+    font-size: 2rem;
+    color: #ffffff;           /* белый заголовок */
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .text {
+    max-width: 800px;
+    margin: 0 auto 32px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #ffffff;           /* белый основной текст */
+  }
+  
+  .subsection {
+    margin-top: 48px;
+  }
+  
+  .subheading {
+    font-size: 1.5rem;
+    color: #ffffff;           /* белая подзаголовок */
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .cardsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 24px;
+    max-width: 960px;
+    margin: 0 auto 32px;
+  }
+  
+  .card {
+    background: #ffffff;      /* оставляем белые карточки для контраста */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  }
+  
+  .cardImage {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+  }
+  
+  .cardTitle {
+    padding: 12px;
+    font-weight: 600;
+    color: #0e1a2b;           /* темные заголовки карточек */
+    text-align: center;
+  }
+  
+  .providersGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    max-width: 800px;
+    margin: 0 auto 32px;
+  }
+  
+  .providerLogo {
+    width: 80px;
+    filter: grayscale(100%);
+    transition: filter 0.3s, transform 0.3s;
+    cursor: pointer;
+  }
+  
+  .providerLogo:hover {
+    filter: none;
+    transform: scale(1.1);
+  }
+  
